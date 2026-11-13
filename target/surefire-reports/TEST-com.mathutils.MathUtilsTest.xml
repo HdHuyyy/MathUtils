@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mathutils.MathUtilsTest" time="0.185" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mathutils.MathUtilsTest" time="0.123" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.4.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\DUC HUY\AppData\Local\Temp\surefire7988916937616222562\surefirebooter-20261114061024005_3.jar C:\Users\DUC HUY\AppData\Local\Temp\surefire7988916937616222562 2026-11-14T06-10-23_900-jvmRun1 surefire-20261114061024005_1tmp surefire_0-20261114061024005_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DUC HUY\AppData\Local\Temp\surefire15292017963247346242\surefirebooter-20261114062719338_3.jar C:\Users\DUC HUY\AppData\Local\Temp\surefire15292017963247346242 2026-11-14T06-27-19_057-jvmRun1 surefire-20261114062719338_1tmp surefire_0-20261114062719338_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\DUC HUY\Downloads\HoangDucHuy_25020610_Week9\Bai03\target\test-classes;C:\Users\DUC HUY\Downloads\HoangDucHuy_25020610_Week9\Bai03\target\classes;C:\Users\DUC HUY\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\DUC HUY\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\DUC HUY\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\DUC HUY\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\DUC HUY\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\DUC HUY\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\DUC HUY\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\DUC HUY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DUC HUY\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\DUC HUY\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\DUC HUY\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DUC HUY\AppData\Local\Temp\surefire7988916937616222562\surefirebooter-20261114061024005_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DUC HUY\AppData\Local\Temp\surefire15292017963247346242\surefirebooter-20261114062719338_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.4.1+1-LTS-5"/>
@@ -59,24 +59,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testDivideByZero" classname="com.mathutils.MathUtilsTest" time="0.024">
-    <system-out><![CDATA[06:10:24 ERROR com.mathutils.MathUtils - Cannot divide by zero
+  <testcase name="testDivideByZero" classname="com.mathutils.MathUtilsTest" time="0.003">
+    <system-out><![CDATA[06:27:20 ERROR com.mathutils.MathUtils - Cannot divide by zero
 ]]></system-out>
   </testcase>
-  <testcase name="testAdd" classname="com.mathutils.MathUtilsTest" time="0.002">
-    <system-out><![CDATA[06:10:24 INFO  com.mathutils.MathUtils - Adding 2 and 3
+  <testcase name="testAdd" classname="com.mathutils.MathUtilsTest" time="0.001">
+    <system-out><![CDATA[06:27:20 INFO  com.mathutils.MathUtils - Adding 2 and 3
 ]]></system-out>
   </testcase>
-  <testcase name="testSubtract" classname="com.mathutils.MathUtilsTest" time="0.001">
-    <system-out><![CDATA[06:10:24 INFO  com.mathutils.MathUtils - Subtracting 3 from 5
+  <testcase name="testSubtract" classname="com.mathutils.MathUtilsTest" time="0.0">
+    <system-out><![CDATA[06:27:20 INFO  com.mathutils.MathUtils - Subtracting 3 from 5
 ]]></system-out>
   </testcase>
-  <testcase name="testDivide" classname="com.mathutils.MathUtilsTest" time="0.001">
-    <system-out><![CDATA[06:10:24 INFO  com.mathutils.MathUtils - Dividing 6 by 3
+  <testcase name="testDivide" classname="com.mathutils.MathUtilsTest" time="0.0">
+    <system-out><![CDATA[06:27:20 INFO  com.mathutils.MathUtils - Dividing 6 by 3
 ]]></system-out>
   </testcase>
-  <testcase name="testMultiply" classname="com.mathutils.MathUtilsTest" time="0.001">
-    <system-out><![CDATA[06:10:24 INFO  com.mathutils.MathUtils - Multiplying 3 and 4
+  <testcase name="testMultiply" classname="com.mathutils.MathUtilsTest" time="0.0">
+    <system-out><![CDATA[06:27:20 INFO  com.mathutils.MathUtils - Multiplying 3 and 4
 ]]></system-out>
   </testcase>
 </testsuite>
