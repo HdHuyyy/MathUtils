@@ -3,6 +3,8 @@ package com.mathutils;
 
 import org.junit.jupiter.api.Test;
 
+import java.nio.file.Paths;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class FileManagerTest {
@@ -14,6 +16,9 @@ class FileManagerTest {
         String path = manager.getFilePath(
                 "data", "test.txt");
 
-        assertEquals("data\\test.txt", path);
+        String expected = Paths.get(
+                "data", "test.txt").toString();
+
+        assertEquals(expected, path);
     }
 }
